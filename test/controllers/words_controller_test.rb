@@ -23,7 +23,7 @@ class WordsControllerTest < ActionDispatch::IntegrationTest
       's': 2,
       'y': 1,
       'n': 2,
-      't':1
+      't': 1
     }.to_json
 
     assert_equal expected_response, response.body
